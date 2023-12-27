@@ -69,8 +69,10 @@ function Services() {
         className="mt-24 sm:mt-32 lg:mt-40"
       >
         <p>
-          As long as those opportunities involve giving us money to re-purpose
-          old projects — we can come up with an endless number of those.
+          Transform your online presence with KC Elite Media&apos;s dynamic services. 
+          From seamless Social Media Management to captivating Content Creation, 
+          strategic Partnership Advisement, and cutting-edge Tech guidance – we 
+          craft your digital success story, one click at a time.
         </p>
       </SectionIntro>
       <Container className="mt-16">
@@ -85,24 +87,26 @@ function Services() {
             </FadeIn>
           </div>
           <List className="mt-16 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">
-            <ListItem title="Web development">
-              We specialise in crafting beautiful, high quality marketing pages.
-              The rest of the website will be a shell that uses lorem ipsum
-              everywhere.
+            <ListItem title="Social Media Management">
+              Elevate your brands online presence with our expert Social Media Management. 
+              We curate engaging content, foster community interactions, and implement 
+              data-driven strategies to maximize your impact across all platforms.
             </ListItem>
-            <ListItem title="Application development">
-              We have a team of skilled developers who are experts in the latest
-              app frameworks, like Angular 1 and Google Web Toolkit.
+            <ListItem title="Content Creation">
+              Unleash the power of compelling storytelling and visually stunning content. 
+              Our Content Creation services breathe life into your brand, captivating 
+              audiences and leaving a lasting impression in the digital landscape.
             </ListItem>
-            <ListItem title="E-commerce">
-              We are at the forefront of modern e-commerce development. Which
-              mainly means adding your logo to the Shopify store template we’ve
-              used for the past six years.
+            <ListItem title="Partnership Advisement">
+              Forge meaningful connections and collaborations with our Partnership Advisement 
+              expertise. We guide you through strategic alliances, sponsorships, and joint 
+              ventures, amplifying your brand&apos;s influence and market reach.
             </ListItem>
             <ListItem title="Custom content management">
-              At Studio we understand the importance of having a robust and
-              customised CMS. That’s why we run all of our client projects out
-              of a single, enormous Joomla instance.
+              Stay at the forefront of innovation with our Tech Advisement services. 
+              From implementing the latest digital tools to optimizing your technological 
+              infrastructure, we ensure your business harnesses the full potential of cutting-edge 
+              solutions.
             </ListItem>
           </List>
         </div>
@@ -124,11 +128,14 @@ export default async function Home() {
       <Container className="mt-24 sm:mt-32 md:mt-56">
         <FadeIn className="max-w-3xl">
           <h1 className="font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl">
-            Tried and tested social media management done locally in KC.
+            Proven digial marketing strategy done locally in Kansas City.
           </h1>
           <p className="mt-6 text-xl text-neutral-600">
-            At our core, we are a social media management company that support businesses both small and large
-            with growing their platform organically. 
+            Unlock your business potential with KC Elite Media, your trusted partner 
+            in digital marketing. Specializing in Social Media Marketing/Management, 
+            we elevate brands across the Kansas City metro. From expert social media 
+            management to strategic advice on branding, promotions, partnerships, 
+            and SEO, we fuel your online success. 
           </p>
         </FadeIn>
       </Container>

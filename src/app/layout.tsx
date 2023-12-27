@@ -11,7 +11,7 @@ import { Analytics } from '@vercel/analytics/react';
 export const metadata: Metadata = {
   title: {
     template: '%s - KC Elite Media',
-    default: 'KC Elite Media - Social Media Management',
+    default: 'KC Elite Media - Digital Marketing Firm',
   },
 }
 
