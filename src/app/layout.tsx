@@ -5,6 +5,9 @@ import { RootLayout } from '@/components/RootLayout'
 import '@/styles/tailwind.css'
 import React from 'react'
 
+import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from '@vercel/analytics/react';
+
 export const metadata: Metadata = {
   title: {
     template: '%s - KC Elite Media',
