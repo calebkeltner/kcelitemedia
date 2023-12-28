@@ -30,7 +30,7 @@ function CaseStudies({
     <Container className="mt-40">
       <FadeIn>
         <h2 className="font-display text-2xl font-semibold text-neutral-950">
-          Case studies
+          Past Work
         </h2>
       </FadeIn>
       <div className="mt-10 space-y-20 sm:space-y-24 lg:space-y-32">
@@ -73,7 +73,7 @@ function CaseStudies({
                   <div className="mt-8 flex">
                     <Button
                       href={caseStudy.href}
-                      aria-label={`Read case study: ${caseStudy.client}`}
+                      aria-label={`Read Story: ${caseStudy.client}`}
                     >
                       Read case study
                     </Button>
@@ -97,14 +97,7 @@ function CaseStudies({
 }
 
 const clients = [
-  ['Phobia', logoPhobia],
-  ['Family Fund', logoFamilyFund],
-  ['Unseal', logoUnseal],
-  ['Mail Smirk', logoMailSmirk],
-  ['Home Work', logoHomeWork],
-  ['Green Life', logoGreenLife],
-  ['Bright Path', logoBrightPath],
-  ['North Adventures', logoNorthAdventures],
+  ['Buck Tui BBQ', logoFamilyFund],
 ]
 
 function Clients() {
@@ -152,9 +145,10 @@ export default async function Work() {
         title="Proven solutions for real-world problems."
       >
         <p>
-          We believe in efficiency and maximizing our resources to provide the
-          best value to our clients. The primary way we do that is by re-using
-          the same five projects we’ve been developing for the past decade.
+          We believe digital marketing is the key to capturing your piece of the market.
+          Our past clients success with revamping their online presences has led to return on 
+          investments that are still paying them dividends. Want to hear more? Check out some of
+          our past work below.
         </p>
       </PageIntro>
 
@@ -162,10 +156,10 @@ export default async function Work() {
 
       <Testimonial
         className="mt-24 sm:mt-32 lg:mt-40"
-        client={{ name: 'Mail Smirk', logo: logoMailSmirk }}
+        client={{ name: 'Waldo Thai', logo: logoMailSmirk }}
       >
-        We approached <em>Studio</em> because we loved their past work. They
-        delivered something remarkably similar in record time.
+        Once we began working with <em>KC Elite Media</em> to redo all our social pages, we almost immediately
+        saw an increase in customers coming in the door!
       </Testimonial>
 
       <Clients />
