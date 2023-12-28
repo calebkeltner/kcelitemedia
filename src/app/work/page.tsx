@@ -75,7 +75,7 @@ function CaseStudies({
                       href={caseStudy.href}
                       aria-label={`Read Story: ${caseStudy.client}`}
                     >
-                      Read case study
+                      Read Story
                     </Button>
                   </div>
                   {caseStudy.testimonial && (
@@ -97,7 +97,13 @@ function CaseStudies({
 }
 
 const clients = [
-  ['Buck Tui BBQ', logoFamilyFund],
+  ['Family Fund', logoFamilyFund],
+  ['Unseal', logoUnseal],
+  ['Mail Smirk', logoMailSmirk],
+  ['Home Work', logoHomeWork],
+  ['Green Life', logoGreenLife],
+  ['Bright Path', logoBrightPath],
+  ['North Adventures', logoNorthAdventures],
 ]
 
 function Clients() {
@@ -158,7 +164,7 @@ export default async function Work() {
         className="mt-24 sm:mt-32 lg:mt-40"
         client={{ name: 'Waldo Thai', logo: logoMailSmirk }}
       >
-        Once we began working with <em>KC Elite Media</em> to redo all our social pages, we almost immediately
+        Once we began working with <em>KC Elite Media</em>  to redo all our social pages, we almost immediately
         saw an increase in customers coming in the door!
       </Testimonial>
 
