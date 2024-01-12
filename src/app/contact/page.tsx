@@ -95,12 +95,12 @@ function ContactForm() {
                     >
                       Marketing Management
                     </label>
-                    <p
+                    {/* <p
                       id="MarketingManagement-description"
                       className="text-gray-500"
                     >
                       Brief Description.
-                    </p>
+                    </p> */}
                   </div>
                 </div>
 
@@ -121,9 +121,12 @@ function ContactForm() {
                     >
                       Social Media Management
                     </label>
-                    <p id="SM-Management-description" className="text-gray-500">
+                    {/* <p
+                      id="SM-Management-description"
+                      className="text-gray-500"
+                    >
                       Brief Description.
-                    </p>
+                    </p> */}
                   </div>
                 </div>
 
@@ -144,9 +147,12 @@ function ContactForm() {
                     >
                       Influencer / Public Relations
                     </label>
-                    <p id="influencer-description" className="text-gray-500">
+                    {/* <p
+                      id="influencer-description"
+                      className="text-gray-500"
+                    >
                       Brief Description.
-                    </p>
+                    </p> */}
                   </div>
                 </div>
 
@@ -167,12 +173,12 @@ function ContactForm() {
                     >
                       Content Creation
                     </label>
-                    <p
+                    {/* <p
                       id="contentCreation-description"
                       className="text-gray-500"
                     >
                       Brief Description.
-                    </p>
+                    </p> */}
                   </div>
                 </div>
 
@@ -193,12 +199,14 @@ function ContactForm() {
                     >
                       Brand Design
                     </label>
-                    <p id="brandDesign-description" className="text-gray-500">
+                    {/* <p
+                      id="brandDesign-description"
+                      className="text-gray-500"
+                    >
                       Brief Description.
-                    </p>
+                    </p> */}
                   </div>
                 </div>
-                
               </div>
             </fieldset>
           </div>
@@ -206,10 +214,14 @@ function ContactForm() {
             <fieldset>
               <legend className="text-base/6 text-neutral-500">Budget</legend>
               <div className="mt-6 grid grid-cols-1 gap-8 sm:grid-cols-2">
-                <RadioInput label="$25K – $50K" name="budget" value="25" />
-                <RadioInput label="$50K – $100K" name="budget" value="50" />
-                <RadioInput label="$100K – $150K" name="budget" value="100" />
-                <RadioInput label="More than $150K" name="budget" value="150" />
+                <RadioInput label="$250 - $500" name="budget" value="250" />
+                <RadioInput label="$500 - $1,500" name="budget" value="500" />
+                <RadioInput
+                  label="$1,500 - $2,500"
+                  name="budget"
+                  value="1500"
+                />
+                <RadioInput label="$2,500+" name="budget" value="2500" />
               </div>
             </fieldset>
           </div>
@@ -225,7 +237,7 @@ function ContactForm() {
 function ContactDetails() {
   return (
     <FadeIn>
-      <h2 className="font-display text-base font-semibold text-neutral-950">
+      {/* <h2 className="font-display text-base font-semibold text-neutral-950">
         Our offices
       </h2>
       <p className="mt-6 text-base text-neutral-600">
@@ -233,7 +245,7 @@ function ContactDetails() {
         addresses here for legal reasons.
       </p>
 
-      <Offices className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2" />
+      <Offices className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2" /> */}
 
       <Border className="mt-16 pt-16">
         <h2 className="font-display text-base font-semibold text-neutral-950">

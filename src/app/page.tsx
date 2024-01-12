@@ -1,7 +1,6 @@
 import { type Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
-
 import { ContactSection } from '@/components/ContactSection'
 import { Container } from '@/components/Container'
 import { FadeIn, FadeInStagger } from '@/components/FadeIn'
@@ -102,7 +101,7 @@ function Services() {
               expertise. We guide you through strategic alliances, sponsorships, and joint 
               ventures, amplifying your brand&apos;s influence and market reach.
             </ListItem>
-            <ListItem title="Custom content management">
+            <ListItem title="Custom Content Management">
               Stay at the forefront of innovation with our Tech Advisement services. 
               From implementing the latest digital tools to optimizing your technological 
               infrastructure, we ensure your business harnesses the full potential of cutting-edge 
